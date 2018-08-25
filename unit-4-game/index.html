@@ -1,0 +1,78 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../unit-4-game/assets/CSS/reset.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <title>Crystal Collector!</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../unit-4-game/assets/CSS/style.css">
+
+    <script src="../unit-4-game/assets/JavaScript/game.js"></script>
+</head>
+
+<body>
+    <section>
+            <div class="jumbotron bg-dark text-white">
+
+                    <h1 class="text-center">Crystal Collector!</h1>
+                
+                    <div class="text-center">
+
+                            <div>Instructions:
+                                <ul>Click the button to begin the game</li>
+                                <ul>1) You will be given a randomized goal number</li>
+                                <ul>2) To the right of the goal number, there are four gems of random point values</ul>
+                                <ul>3) Click on the crystals to add those points to your score, attempting to match the goal number</ul>
+                                <ul>4) to Win: Match the goal number! If you win or lose, the game will restart and the win/loss counter will reflect the outcome</ul>
+                                <button type="button" class="btn btn-success" id="beginButton">Begin Game</button>
+                                <hr>
+                                <p id>Win/Loss Counter</p>
+                                    <ul id="winCount">Wins: </ul>
+                                    <ul id="lossCount">Losses: </ul>
+                            </div>
+                    </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+
+            <div class="col-md-4 bg-dark text-white"> 
+                <p>Target Number</p>
+                <hr>
+                <p id="TargetCount"></p>
+
+                <p>Player Number</p>
+                <hr>
+                <p id="PlayerCount"></p>
+            </div>
+
+            <div class="col-md-4 bg-dark text-white view zoom">
+                <p> Crystals</p>
+                <img id="BluGem" src="../unit-4-game/assets/Images/blu.png" alt="Blue Gem" width="150px" height="150px" class="GemImg img-fluid">
+                <img id="GrenGem" src="../unit-4-game/assets/Images/gren.png"alt="Green Gem" width="150px" height="150px" class="GemImg img-fluid">
+                <img id="RedGem" src="../unit-4-game/assets/Images/red.png" alt="Red Gem" width="150px" height="150px" class="GemImg img-fluid">
+                <img id="YellGem" src="../unit-4-game/assets/Images/yell.png"alt="Yellow Gem" width="150px" height="150px" class="GemImg img-fluid">
+            </div>
+
+            <div class="col-md-2">
+            </div>
+        </div>
+</section>
+
+<section>
+    <div>
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-bottom" role="navigation">
+            <div class="navbar-header">
+        </nav>  
+    </div>
+</section>
+</body>
+</html>

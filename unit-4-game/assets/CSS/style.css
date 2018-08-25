@@ -1,0 +1,13 @@
+body, html {
+    height: 100%;
+    background-image: url("../Images/parchment-paper-wallpaper-2.jpg");
+}   
+
+.GemImg {
+    margin:auto;
+    margin-bottom: 7px;
+}
+
+.jumbotron {
+    padding-bottom: 5px;
+}
